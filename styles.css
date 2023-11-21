@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large; 
+    color: black;
+}
+h1 {
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: darkblue;
+}
+nav ul {
+    background-color: white;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: 2px;
+    padding: 7px;
+    border-radius: 1px;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+nav ul li a {
+    text-decoration: none;
+    color: darkblue;
+}
+nav ul li a:hover {
+    color: cornflowerblue;
+}
+nav ul {
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li {
+    text-align: center;
+    list-style: none;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
