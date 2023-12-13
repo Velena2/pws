@@ -8,9 +8,15 @@ h1 {
     color: darkblue;
     font-family: 'Times New Roman', Times, serif;
 }
+h1 big {
+    color: cornflowerblue;
+}
 h2 {
     color: darkblue;
     font-family: 'Times New Roman', Times, serif;
+}
+p {
+    font-size: 20px;
 }
 
 nav ul li {
@@ -34,6 +40,7 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: darkblue;
+    font-size: 20px;
 }
 nav ul li a:hover {
     color: cornflowerblue;
